@@ -1,3 +1,4 @@
+const { keep_alive } = require("./keep_alive");
 const fs = require('fs')
 const Discord = require("discord.js11");
 const colors = require('colors');
@@ -29,7 +30,7 @@ class Bot {
                 game: {
                     name: items[Math.floor(Math.random() * items.length)], //Thanks to vjjjj for helping figure this part out, edited from Trym
                     type: "PLAYING",
-                    url: "https://discord.gg/jAAr27fnFq"
+                    url: "https://discord.gg/c4op"
                 }
             });
         });
